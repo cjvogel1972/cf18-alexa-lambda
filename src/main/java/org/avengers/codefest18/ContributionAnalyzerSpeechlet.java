@@ -153,7 +153,7 @@ public class ContributionAnalyzerSpeechlet implements Speechlet {
     }
 
     private SpeechletResponse getStopResponse() {
-        String speechText = "Thank you. If you need other assistance please call your branch. Have a nice day.";
+        String speechText = "This was dope.  Thank you. If you need other assistance please call your branch. Have a nice day.";
 
         return buildPlainTellResponse(speechText, "Edward Jones", speechText, true);
     }
